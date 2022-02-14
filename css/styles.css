@@ -12,7 +12,7 @@ body {
   color: #2196f3;
 }
 
-/* site-nav */
+/* Шапка */
 .site-nav .link {
   color: #212121;
 }
@@ -22,7 +22,6 @@ body {
   color: #2196f3;
 }
 
-/* contact-nav list */
 .contact-nav .link {
   color: #757575;
 }
@@ -30,4 +29,24 @@ body {
 .contact-nav .link:hover,
 .contact-nav .link:focus {
   color: #2196f3;
+}
+
+/* Секция Наши прeимущества */
+.feature .text {
+  color: #757575;
+}
+
+/* Секция Чем ми занимаемся */
+.work .title {
+  color: #ffffff;
+}
+
+/* Секция Наша команда */
+.team .text {
+  color: #757575;
+}
+
+/* Секция Подвал */
+footer {
+  color: #ffffff;
 }

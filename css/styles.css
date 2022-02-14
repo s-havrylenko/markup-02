@@ -1,3 +1,33 @@
 body {
   background-color: aquamarine;
+  color: #212121;
+}
+
+/* отменяет стили */
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* contact-nav list */
+.contact-nav .link {
+  color: #757575;
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: #2196f3;
 }

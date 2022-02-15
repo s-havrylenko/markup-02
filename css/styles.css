@@ -1,3 +1,10 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
 body {
   background-color: aquamarine;
   color: #212121;
@@ -9,44 +16,83 @@ body {
 }
 
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.logo .header {
+  color: var(--primary-text-color);
+}
+
+.logo .footer {
+  color: var(--primary-white-color);
 }
 
 /* Шапка */
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
+}
+
+/* Показывает текущую страницу сайта */
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--secondary-text-color);
 }
 
 .contact-nav .link {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .contact-nav .link:hover,
 .contact-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Секция Наши прeимущества */
 .feature .text {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 /* Секция Чем ми занимаемся */
 .work .title {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 /* Секция Наша команда */
 .team .text {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 /* Секция Подвал */
 footer {
-  color: #ffffff;
+  color: var(--primary-white-color);
+}
+
+/* Button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondery {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+
+/* Портфолио */
+
+.examples .text {
+  color: var(--secondary-text-color);
+}
+
+.text-secondery {
+  color: var(--primary-white-color);
 }

@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+
+
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -30,36 +36,36 @@
 
     <main>
         <!--Секция Герой-->
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
+        <section class="hero">
+            <h1 class="hero title">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="button primary">Заказать услугу</button>            
         </section>
 
         <!--Секция Наши прeимущества -->
         <section class="feature">
-            <h2>Наши преимущества</h2>
+            <h2 class="section-title">Наши преимущества</h2>
             <ul class="feature list">
                 <li>
                     <img src="./images/antenna.svg" alt="Схематическое изображение спутниковой антены">
-                    <h3>Внимание к деталям</h3>
+                    <h3 class="title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                     <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
 
                 <li>
                     <img src="./images/clock.svg" alt="Схематическое изображение механического циферблата часов">
-                    <h3>Пунктуальность</h3>
+                    <h3 class="title">ПУНКТУАЛЬНОСТЬ</h3>
                     <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
 
                 <li>
                     <img src="./images/diagram.svg" alt="Схематическое изображение диаграммы">
-                    <h3">Планирование</h3>
+                    <h3 class="title">ПЛАНИРОВАНИЕ</h3>
                     <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
 
                 <li>
                     <img src="./images/astronaut.svg" alt="Схематическое изображение астронафта в космосе">
-                    <h3>Современные технологии</h3>
+                    <h3 class="title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
                     <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
@@ -67,21 +73,21 @@
 
         <!--Секция Чем ми занимаемся -->
         <section class="work">
-            <h2>Чем мы занимаемся</h2>
+            <h2 class="section-title">Чем мы занимаемся</h2>
             <ul class="work list">
                 <li>
-                    <h3 class="title">Десктопные приложения</h3>
+                    <h3 class="title">ДУСКТОПНЫЕ ПРИЛОЖЕНИЯ</h3>
                     <img src="./images/box-1.jpg" alt="Руки человека работающие на ноутбуке, который лежит на столе"
                         width="370">
                 </li>
 
                 <li>
-                    <h3 class="title">Мобильные приложения</h3>
+                    <h3 class="title">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</h3>
                     <img src="./images/box-2.jpg" alt="Смартфон на бело-синем фоне" width="370">
                 </li>
 
                 <li>
-                    <h3 class="title">Дизайнерские решения</h3>
+                    <h3 class="title">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</h3>
                     <img src="./images/box-3.jpg" alt="Монитор с изображение" width="370">
                 </li>
             </ul>
@@ -89,7 +95,7 @@
 
         <!--Секция Наша команда -->
         <section class="team">
-            <h2>Наша команда</h2>
+            <h2 class="section-title">Наша команда</h2>
             <ul class="team list">
                 <li>
                     <img src="./images/nikolai.jpg" alt="Изображение сотрудника" width="270">
@@ -175,7 +181,7 @@
 
         <!--Секция Постоянные клиенты -->
         <section class="clients">
-            <h2>Постоянные клиенты</h2>
+            <h2 class="section-title">Постоянные клиенты</h2>
             <ul class="clients list">
                 <li><a href=""><img src="./images/client-1.svg" alt="Логотип компании"></a></li>
                 <li><a href=""><img src="./images/client-2.svg" alt="Логотип компании"></a></li>
@@ -188,8 +194,8 @@
 
     <!--Секция Подвал -->
     <footer>
-        <a href="./studio.html" class="logo">Web <samp class="logo footer">Studio</samp></a>
-        <address>
+        <a href="./index.html" class="logo">Web <samp class="logo footer">Studio</samp></a>
+        <address class="address">
             г. Киев, пр-т Леси Украинки, 26
             info@example.com
             +38 099 111 11 11

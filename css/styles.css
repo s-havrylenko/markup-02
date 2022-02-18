@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  background-color: #f5f4fa;
   color: #212121;
 
   font-family: Roboto, sans-serif;
@@ -27,6 +28,8 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
+  text-decoration: none;
 }
 
 .logo .header {
@@ -45,6 +48,8 @@ body {
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 /* Показывает текущую страницу сайта */
@@ -64,6 +69,8 @@ body {
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 .contact-nav .link:hover,
@@ -116,6 +123,10 @@ body {
 }
 
 /* Секция Наша команда */
+.team {
+  background-color: #f5f4fa;
+}
+
 .team .list {
   font-weight: 500;
   font-size: 16px;
@@ -131,6 +142,8 @@ body {
 
 /* Секция Подвал */
 footer {
+  background-color: #2f303a;
+
   color: var(--primary-white-color);
 }
 
@@ -151,10 +164,9 @@ b {
 
   /* font-family: inherit; для унаследования свойства кнопкой */
 
-  font-weight: bold;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.9em;
-  letter-spacing: 0.06em;
+  line-height: 1.62em;
 }
 
 .button.primary {
@@ -168,11 +180,29 @@ b {
 }
 
 /* Портфолио */
-
-.examples .text {
-  color: var(--secondary-text-color);
+.examples-link {
+  text-decoration: none;
 }
 
-.text-secondery {
+.examples-descriptions {
   color: var(--primary-white-color);
+
+  font-size: 18px;
+  line-height: 1.56em;
+}
+
+.examples-title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+}
+
+.examples-text {
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87em;
 }
